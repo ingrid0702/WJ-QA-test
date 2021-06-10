@@ -47,7 +47,7 @@ context('WJ test QA', () => {
         });
     })
 
-    it('Type into YourFirtName input (inside frame), click button and assert selenium image be visible', () => {  //função que verifica se os botons existem em outro local
+    it('Type into YourFirtName input (inside frame), click button and assert selenium image be visible', () => {
 
         cy.log('Get iframe "iframe_panel_body_two"');
         cy.get('#iframe_panel_body_two > iframe').then(($iframe) => {
